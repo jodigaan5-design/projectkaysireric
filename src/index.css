@@ -1,0 +1,34 @@
+:root {
+  --bg-body: #f5f2ed;
+  --bg-card: #e5dacd;
+  --bg-card-hover: #dacbc0;
+  --badge-green: #6b8268;
+  --text-primary: #222222;
+  --text-muted: #666666;
+  --border-subtle: #dcd3c7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input,
+select {
+  outline: none;
+}
